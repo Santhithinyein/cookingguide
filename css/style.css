@@ -1,0 +1,596 @@
+html body {
+    background-color: #bfbcbc;
+}
+
+.main_body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+.category {
+    margin-right: 10px;
+}
+
+.category:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.heading {
+    background-color: #292828;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.menu {
+    height: 40px;
+}
+
+.menu_detail {
+    margin-top: 7px;
+}
+
+.menu_detail a {
+    color: black;
+}
+
+.active {
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-left: 15px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 150px;
+    color: white;
+}
+
+.search {
+    color: white;
+    margin-left: 15px;
+}
+
+#Search {
+    background: transparent url(../icons/search.png) no-repeat center right;
+}
+
+#Search {
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#Search:focus {
+    outline: none;
+    color: white;
+}
+
+.cooking_guide_name {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cooking_guide_list_parent {
+    background-color: #524e4e;
+}
+
+.cooking_guide_list {
+    background-color: #524e4e;
+}
+
+.cookguide_title {
+    margin-bottom: -1px;
+    color: white;
+}
+
+#cookguide_title_parent:hover {
+    text-decoration: none
+}
+
+.footer {
+    background-color: #292828;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.word_break {
+	word-break: break-all;
+}
+
+.intro {
+    padding: 0px;
+}
+
+.menu_button {
+    border: none;
+    width: 70px;
+    display: none;
+}
+
+.menu_button a {
+    width: 80px;
+}
+
+.menu_button {
+    background: transparent url(../icons/app.png) no-repeat center center;
+}
+
+.mobile {
+    display: none;
+}
+
+.cooking_guide_icon {
+    border: none;
+    width: 70px;
+    margin-left: 15px;
+}
+
+.cooking_guide_icon {
+    background: transparent url(../icons/saute.png) no-repeat center left;
+}
+
+.heading_title {
+    margin-left: 60px;
+    margin-top: -35px;
+}
+
+.add_icon {
+    background: transparent url(../icons/add.png) no-repeat center right; 
+}
+
+.main_body_parent {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.back_button {
+    border: none;
+    background-color: white;
+}
+
+.back_button a {
+    color: black;
+}
+
+.points {
+    padding-top: 27%;
+    padding-bottom: 27%;
+}
+
+.comment_border {
+    border-bottom: 1px solid white;
+}
+
+.name_and_email {
+    margin: 0;
+}
+
+#latest_record_photo {
+    padding-left: 15px;
+}
+
+.receipe_name {
+    padding-left: 0px;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.detail_info {
+    border-bottom: 1px solid white;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.show_points {
+    width: 182px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.show_points:focus {
+    outline: none;
+    color: white;
+}
+
+.show_points > option {
+    color: black;
+}
+
+.show_image {
+    width:  250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.mobile_category {
+    color: black;
+}
+
+.mobile_category:hover {
+    color: black;
+}
+
+.mobile_category_parent {
+    padding-left: 15px;
+}
+
+.photo_parent {
+    position: relative;
+    color: white;
+    margin-top:-20px;
+    margin-bottom: 0px;
+    height: 100vh;
+}
+
+.photo_parent > div > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.home_user {
+    position: absolute;
+    top: 25px;
+    right: 46px;font-size: 1.1em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    background-color: rgba(24, 24, 24, 0.54);
+}
+
+.home_user > a,.home_admin > a {
+    color: white;
+}
+
+.home_user > a:hover,.home_admin > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.home_admin {
+    position: absolute;
+    top: 25px;
+    right: 130px;font-size: 1.1em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    background-color: rgba(24, 24, 24, 0.54);
+}
+
+.benefits {
+    position: absolute;
+    top: 20%;
+    left: 100px;width: 60%;
+    padding: 15px;
+    border-left: 3px solid white;
+    background-color: rgba(24, 24, 24, 0.54);
+}
+
+#box2 {
+    display: none;
+}
+
+#box3 {
+    display: none;
+}
+
+#box4 {
+    display: none;
+}
+
+.category_anchor {
+    float: left;
+    margin-left: 30px;
+    height: 70px;
+    width: 80px;
+}
+
+.hide {
+    display: none;
+}
+
+.hide:hover {
+    display: block;
+}
+
+.sub_cat:hover {
+    display: block;
+}
+
+.myDIV:hover + .hide {
+    display: block;
+}
+
+.sub_cat {
+    list-style: none;
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+li {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#change_white {
+    color: white;
+}
+
+.type_parent {
+    margin-left: 15px;
+}
+
+.type {
+    float:left;
+    margin-right: 20px;
+}
+
+.with_background {
+    margin-top: -110px;
+    width: 100%;
+    background-image: url('../images/home/bg-wallpaper2.jpg');
+}
+
+/* only for detail.php */
+.adjust_with_background {
+    margin-top: 110px;
+}
+
+.with_background_child_element {
+    background-color: rgba(24, 24, 24, 0.54);
+    color:white;
+}
+
+.detail_info_mm {
+    border-bottom: 1px solid white;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.comment_name,.comment_email,.comment_box,.comment_submit,.select_points {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.comment_name:focus,.comment_email,.comment_box,.comment_submit {
+    outline: none;
+    color: white;
+}
+
+.comment_box {
+    width: 260px;
+    height: 130px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.home_div {
+    margin-top: -15px;
+    margin-bottom: -20px;
+    width: 100%;
+    background-image: url('../images/home/bg-wallpaper2.jpg');
+}
+
+.home_menu {
+    padding-top: 20px;
+}
+
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+audio::-webkit-media-controls,
+video::-webkit-media-controls {
+    display: none;
+}
+
+#vid {
+    margin-top: -15px;
+}
+
+.message {
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    color: white;
+}
+
+.show_comments {
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* medium screens */
+@media (min-width: 30em) and (max-width: 60em) {
+    .main_body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #Search {
+        width: 100px;
+    }
+
+    .menu_detail {
+        display: none;
+    }
+
+    .remove_at_mobile {
+        display: none;
+    }
+
+    .menu_button {
+        display: block;
+    }
+
+    .message {
+        width: 80%;
+    }
+
+    #vid {
+        margin-top: 15px;
+    }
+}
+
+/* mobile screens */
+@media(min-width: 1em) and (max-width: 30em) {
+    .main_body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #Search {
+        width: 80px;
+    }
+
+    .menu_detail {
+        display: none;
+    }
+
+    .menu_button {
+        display: block;
+    }
+
+    .remove_at_mobile {
+        display: none;
+    }
+
+    .larger {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .heading_title {
+        display: none;
+    }
+
+    .main_body_parent {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .receipes_content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .message {
+        width: 90%;
+    }
+
+    #vid {
+        margin-top: 15px;
+    }
+}
+
+/* specific setting */
+@media (min-width: 1075px) and (max-width: 1199px) {
+    .show_image_anchor {
+        padding-left: 50px;    
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1075px) {
+    .show_image_anchor {
+        padding-left: 20px;    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 805px) {
+    .receipe_name {
+        padding-left: 25px;
+    }
+   .intro {
+       padding-left: 25px;
+   }
+}
+
+/* special setting 2 */
+@media (min-width: 1px) and (max-width: 870px) {
+    .benefits {
+        top: 15%;
+        left: 30px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .benefits {
+        left: 10px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 700px) {
+    .home_user {
+        position: absolute;
+        top: 25px;
+        right: 15px;font-size: 1.1em;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 3px solid white;
+        background-color: rgba(24, 24, 24, 0.54);
+    }
+    
+    .home_admin {
+        position: absolute;
+        top: 25px;
+        right: 100px;font-size: 1.1em;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 3px solid white;
+        background-color: rgba(24, 24, 24, 0.54);
+    }
+}
